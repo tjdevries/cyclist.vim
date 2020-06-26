@@ -1,12 +1,3 @@
-" Example Spaces, so you can check out your listchars {{{
-" trailing space
-"     
-" nbsb vv
-"  
-" garbage tabs
-" 		
-" }}}
-
 let s:DEBUG = v:false
 
 let s:current_listchar_opt = 'default'

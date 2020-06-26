@@ -1,0 +1,22 @@
+### Simple demo to show cycling chars
+## key_delay 1
+## feed_full
+
+:e! ./media/different_whitespace.vim\<CR>
+:set nowrap\<CR>
+
+:echo "The default whitespace configuration"\<CR>
+
+## pause
+## key_delay 80
+
+:call cyclist#next_listchar()\<CR>
+
+:" Moved to the next listchar\<CR>
+## pause
+
+:call cyclist#next_listchar()\<CR>
+:" Moved to the next next listchar\<CR>
+
+## pause
+:qa!\<CR>
