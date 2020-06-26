@@ -1,0 +1,2 @@
+# cyclist.vim
+cycle + listchars
