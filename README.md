@@ -14,6 +14,10 @@ OS         : Ubuntu
 Developed  : On my stream at https://twitch.tv/teej_dv
 ```
 
+## Cycling
+
+![cycling](./media/cycling.svg)
+
 ## Usage
 
 ```vim
