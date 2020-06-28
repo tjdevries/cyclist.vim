@@ -32,7 +32,7 @@ function cyclist#activate_listchars(opt_name) abort
         \ items(filter(s:listchar_opts[a:opt_name], {k, v -> v != ''})),
         \ { opt_name, key -> printf("%s:%s", key[0], key[1])}
         \ ), ',')
-
+  echo "Listchar set: " . a:opt_name
   if s:DEBUG
     echo 'listchar_mapped:'
     echo listchar_mapped
