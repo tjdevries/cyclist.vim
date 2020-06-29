@@ -1,6 +1,6 @@
 let g:loaded_cyclist = v:true
 
-call cyclist#activate_listchars('default')
+silent! call cyclist#activate_listchars('default')
 
 nnoremap <Plug>CyclistNext :call cyclist#next_listchar()<CR>
 nnoremap <Plug>CyclistPrev :call cyclist#prev_listchar()<CR>
