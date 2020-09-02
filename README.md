@@ -49,7 +49,7 @@ call cyclist#activate_listchars('default')
 call cyclist#set_trail('default', '░')
 
 " PRECEDES & EXTENDS
-call cyclist#set_preceds('default', '☚')
+call cyclist#set_precedes('default', '☚')
 call cyclist#set_extends('default', '☛')
 ```
 
