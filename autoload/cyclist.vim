@@ -51,10 +51,8 @@ function s:cyclist_move_listchar(change) abort
         \  current_option_index >= 0,
         \ "Must have index in listchar_key_order")
 
-  let new_option_index = float2nr(
-        \ fmod(
-          \ current_option_index + a:change,
-          \ len(s:listchar_key_order)))
+  let new_option_index =
+        \ (current_option_index + a:change) % len(s:listchar_key_order)
 
   call cyclist#activate_listchars(s:listchar_key_order[new_option_index])
 endfunction
