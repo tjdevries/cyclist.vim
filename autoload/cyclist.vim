@@ -109,9 +109,9 @@ call cyclist#add_listchar_option_set("default", {
         \ 'eol': '↲',
         \ 'tab': '» ',
         \ 'space': '',
-        \ 'trail': '𝁢',
+        \ 'trail': '·',
         \ 'extends': '…',
-        \ 'precedes': '…',    
+        \ 'precedes': '…',
         \ 'conceal': '┊',
         \ 'nbsp': '☠',
         \ })
